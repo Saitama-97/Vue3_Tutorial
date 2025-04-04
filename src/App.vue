@@ -9,11 +9,12 @@
 
 <script>
 // JS & TS
-import PersonVue2 from './components/Person_vue2.vue'
+// import PersonVue2 from './components/Person_vue2.vue'
+import Person from './components/Person.vue'
 
 export default {
   name: 'App',
-  components: { person: PersonVue2 },
+  components: { person: Person },
 }
 </script>
 
