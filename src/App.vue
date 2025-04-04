@@ -4,6 +4,7 @@
   <div class="app">
     <!--    <h1>Hello</h1>-->
     <person></person>
+    <car></car>
   </div>
 </template>
 
@@ -11,10 +12,11 @@
 // JS & TS
 // import PersonVue2 from './components/Person_vue2.vue'
 import Person from './components/Person.vue'
+import Car from './components/Car.vue'
 
 export default {
   name: 'App',
-  components: { person: Person },
+  components: { person: Person, car: Car },
 }
 </script>
 
