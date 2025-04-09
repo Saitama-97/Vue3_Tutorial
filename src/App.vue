@@ -3,17 +3,19 @@
   <!-- 组件的结构 -->
   <div class="app">
     <!--    <h1>Hello</h1>-->
-    <person></person>
+    <!--    <person></person>-->
+    <test></test>
   </div>
 </template>
 
 <script>
 // JS & TS
-import PersonVue2 from './components/Person_vue2.vue'
-
+// import PersonVue2 from './components/Person_vue2.vue'
+import ApiTest from '@/components/ApiTest.vue'
 export default {
   name: 'App',
-  components: { person: PersonVue2 },
+  // components: { person: PersonVue2 },
+  components: { test: ApiTest },
 }
 </script>
 
